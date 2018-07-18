@@ -1,0 +1,1 @@
+# get_latest_cosmos_testnet_seeds
