@@ -17,7 +17,7 @@ for p in hjson["result"]["peers"]:
     p=p["node_info"]
     if p["listen_addr"].startswith("10."):
         continue
-    if p["listen_addr"].startswith("192."):
+    if p["listen_addr"].startswith("192.168."):
         continue
     if p["listen_addr"].startswith("172."):
         continue
@@ -34,7 +34,7 @@ for p in hjson["result"]["peers"]:
     p=p["node_info"]
     if p["listen_addr"].startswith("10."):
         continue
-    if p["listen_addr"].startswith("192."):
+    if p["listen_addr"].startswith("192.168."):
         continue
     if p["listen_addr"].startswith("172."):
         continue
